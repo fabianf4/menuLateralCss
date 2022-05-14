@@ -1,0 +1,47 @@
+.social{
+  position: fixed;
+  margin-top: 100px;
+}
+
+
+a{
+  display: inline-block;
+  left: 1;
+  background: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0 10% 10% 0;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+.fb{
+  background: #1877f2;
+}
+
+.ins{
+  background: #7338ad;
+}
+
+.you{
+  background: #ff0000;
+}
+
+a:hover{
+  background: #000;
+  padding-left: 20px;
+  width: 70px;
+  
+  transition: background 1s, width 1s , padding-left 1s; 
+
+}
+
+.texto{
+  width: 200px;
+}
